@@ -31,6 +31,11 @@ width:  100%;
 	
 }
 
+.text-sli-uno{
+ text-align: center;
+ z-index: 1;
+}
+
 #slider img {
 
 display: block;

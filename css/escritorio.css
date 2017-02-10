@@ -87,6 +87,7 @@ body {
  height: 660px;
  background: white;
  margin-top: -20px;
+ background: #DDDDDD;
  
 }
 
@@ -105,6 +106,20 @@ body {
  background: white;
  margin-top: -20px;
  
+}
+
+.article-seis {
+  width: 100%;
+ height: 500px;
+ background: #DDDDDD;
+ margin-top: -20px;
+}
+
+.footer {
+  width: 100%;
+ height: 400px;
+ background: black;
+ margin-top: -20px;
 }
 
 
@@ -129,8 +144,8 @@ body {
  background-position: 50% 50%;
 }
 
-#img-1 {
-/* background-image: url(../img/fondo2.png);*/
+#img-4 {
+background-image: url(../img/PLATAFORMA/partiproceso.jpg);
 }
 
 .cuadro-medio-section-uno {
@@ -188,8 +203,6 @@ font-size: 20px;
  flex-direction: row;
  margin: auto;
  margin-top: 80px;
-
-
 }
 
 .article-tres-infoocul {
@@ -205,7 +218,7 @@ font-size: 20px;
 }
 
 .article-tres-infoocul ul {
- width: 1200px;
+ width: 100%;;
  display: flex;
  margin: auto;
   list-style: none;
@@ -216,7 +229,7 @@ font-size: 20px;
 .article-tres-infoocul ul li {
  width: 300px;
  height: 200px;
- margin-left: 20px;
+ margin-left: 20px; 
  padding-top: 100px;
  padding-left: 40px;
  background: red;
@@ -224,14 +237,39 @@ font-size: 20px;
   transition: width 1s, height 1s, transform 1s;
  
 }
-.article-tres-infoocul ul li:hover {
-  width: 400px;
- height: 300px;
-  margin-left: 30px;
+
+
+.article-tres-infoocul ul .tres-info-li:hover {
+ width: 385px;
+ height: 420px;
+  margin-left: 110px;
+ margin-top: -150px;
  background: rgba(0,165,81,1);
  opacity: 0.8;
   transform: rotate(360deg); 
 }
+
+.article-tres-infoocul ul .cuatro-info-li:hover {
+ width: 385px;
+ height: 420px;
+  margin-left: 195px;
+ margin-top: -150px;
+ background: rgba(0,165,81,1);
+ opacity: 0.8;
+  transform: rotate(360deg); 
+}
+
+.article-tres-infoocul ul .cinco-info-li:hover {
+  width: 385px;
+ height: 420px;
+  margin-left: 275px;
+ margin-top: -150px;
+ background: rgba(0,165,81,1);
+ opacity: 0.8;
+  transform: rotate(360deg); 
+}
+
+
 
 .article-tres-infoocul ul li a {
  text-align: center;
@@ -251,12 +289,60 @@ font-size: 20px;
 
 .article-tres-info  ul li{
  width: 400px;
-  margin-left: 20px;
+ margin-left: 20px;
+ border-style: solid;
+ border-width: 1px;
+ border-radius: 10px;
+  background: white;
+ display: flex;
+ flex-direction: column;
  
+}
+.article-tres-info  ul li .tres-info-uno-uno {
+ margin-right: 20px;
+ font-size: 16px;
+ margin-top: 25px;
+ margin-left: 20px;
+}
+
+.article-tres-info  ul li .tres-info-uno-dos {
+ margin-right: 20px;
+ font-size: 16px;
+ margin-top: 25px;
+ margin-left: 20px;
+}
+
+.article-tres-info  ul li .tres-info-uno-tres {
+text-align: center;
+ font-size: 30px;
+ margin-top: 10px;
+}
+
+.article-tres-info  ul li .tres-info-dos-uno {
+ margin-right: 20px;
+ font-size: 40px;
+/* font-size: 16px;*/
+ margin-top: 25px;
+ margin-left: 20px;
+}
+
+.article-tres-info  ul li .tres-info-dos-dos {
+ margin-right: 20px;
+ font-size: 16px;
+ margin-top: 25px;
+ margin-left: 20px;
+}
+
+.article-tres-info  ul li .tres-info-dos-tres {
+text-align: center;
+ font-size: 30px;
+ margin-top: 10px;
 }
 
 .article-tres-info  ul li a img{
  width: 100%;
+ border-top-right-radius: 10px;
+ border-top-left-radius: 10px;
 }
 
 .tres-info-dos {
@@ -283,6 +369,7 @@ font-size: 20px;
 
 .cuatro-inf-stadi .inf-section-cuatro {
 margin-top: 25px;
+font-size: 32px; 
 }
 
 .cinco-inf-test{
@@ -295,6 +382,28 @@ margin-top: 25px;
 .cinco-inf-test .inf-section-cinco {
 margin-top: 25px;
 }
+
+.inf-section-cuatro-medio {
+ width: 80%;
+ height: 200px;
+ margin-top: 50px;
+ display: flex;
+ justify-content: center;
+}
+
+.section-cuatro-uno {
+ width: 50%;
+}
+
+.section-cuatro-uno li {
+ margin-bottom: 20px;
+}
+
+.section-cuatro-dos li {
+ margin-bottom: 20px;
+}
+
+
 
 
 span {
