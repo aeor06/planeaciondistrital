@@ -145,7 +145,7 @@ body {
 }
 
 #img-4 {
-background-image: url(../img/PLATAFORMA/partiproceso.jpg);
+background-image: url(../img/PLATAFORMA/2.jpg);
 }
 
 .cuadro-medio-section-uno {
@@ -320,10 +320,10 @@ text-align: center;
 
 .article-tres-info  ul li .tres-info-dos-uno {
  margin-right: 20px;
- font-size: 40px;
+ font-size: 20px;
 /* font-size: 16px;*/
  margin-top: 25px;
- margin-left: 20px;
+ margin-left: 100px;
 }
 
 .article-tres-info  ul li .tres-info-dos-dos {
@@ -393,15 +393,37 @@ margin-top: 25px;
 
 .section-cuatro-uno {
  width: 50%;
+ list-style: none;
 }
 
 .section-cuatro-uno li {
  margin-bottom: 20px;
 }
 
+.section-cuatro-uno li a {
+ text-decoration: none;
+ color:white;
+ font-size: 20px;
+}
+
+.section-cuatro-dos  {
+ list-style: none;
+}
+
+
 .section-cuatro-dos li {
  margin-bottom: 20px;
 }
+
+.section-cuatro-dos li a {
+ text-decoration: none;
+ color:white;
+ font-size: 20px;
+}
+
+
+
+
 
 
 
