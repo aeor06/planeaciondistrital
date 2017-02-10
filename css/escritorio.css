@@ -1,0 +1,322 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+ font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+ margin-top: -35px;
+ width: 100%;
+ height: 660px;
+ /*background-image: url(../img/alienware.jpg);*/
+ display: flex;
+ flex-direction: row;
+ flex-wrap:  wrap;
+}
+.barra-superior{ 
+ width: 100%;
+ height: 120px;
+/* background: rgba(0,165,81,1);*/
+ background: white;
+ margin-bottom: 1px;
+
+}
+.logo{
+  
+ width: 400px;
+ margin-top: 4px;
+ 
+
+}
+.logo img {
+
+ width: 100%;
+}
+
+.nav {
+ display: flex;
+ width: 90%;
+ height: 50px;
+ justify-content: space-between;
+
+ }
+
+.nav ul { 
+ list-style: none;
+ display: flex;
+ flex-direction: row;
+ align-items: flex-end;
+}
+
+.nav ul li {
+
+ margin-left: 50px;
+}
+
+.nav ul li a{
+  text-decoration: none;
+}
+
+.section-uno {
+ width: 100%;
+ height: 450px;
+ background: white;
+ display: flex;
+ flex-direction: row;
+ flex-wrap:  wrap;
+ 
+}
+
+
+.article-dos {
+ 
+ width: 100%;
+ height: 500px;
+ background: #F0F0F0;
+ margin-top: -20px;
+ 
+}
+
+.article-tres {
+ 
+ width: 100%;
+ height: 660px;
+ background: white;
+ margin-top: -20px;
+ 
+}
+
+.article-cuatro {
+ 
+ width: 100%;
+ height: 500px;
+ background: #F0F0F0;
+ margin-top: -20px;
+ 
+}
+
+.article-cinco {
+  width: 100%;
+ height: 500px;
+ background: white;
+ margin-top: -20px;
+ 
+}
+
+
+.fixed {
+ position: fixed;
+ width: 90%;
+ top: 0;
+ left: 0; 
+
+}
+
+.fixed .logo {
+  width: 250px;
+ height: 80px;
+ 
+}
+
+.parallax {
+ background-attachment: fixed;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: 50% 50%;
+}
+
+#img-1 {
+/* background-image: url(../img/fondo2.png);*/
+}
+
+.cuadro-medio-section-uno {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ width: 100%;
+  
+ 
+}
+
+.cuadro-medio-section-uno .foto-section-uno  {
+ 
+  width: 250px;
+  margin: auto;
+ 
+}
+
+
+.cuadro-medio-section-uno .foto-section-uno img {
+ width: 100%;
+
+}
+
+.cuadro-medio-section-uno .texto-section-uno {
+text-align: center;
+font-size: 20px;
+ margin: auto;
+ margin-top: -10px;
+ width: 650px;
+ 
+}
+
+.cuadro-medio-section-tres {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  
+ 
+}
+
+.cuadro-medio-section-tres .foto-section-tres  {
+ text-align: center;
+font-size: 20px;
+ margin: auto;
+ margin-top: 30px;
+ width: 650px;
+
+}
+
+.article-tres-info  {
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ margin: auto;
+ margin-top: 80px;
+
+
+}
+
+.article-tres-infoocul {
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ margin: auto;
+ margin-top: -260px;
+ margin-left: -20px;
+ z-index: 1000;
+ 
+ 
+}
+
+.article-tres-infoocul ul {
+ width: 1200px;
+ display: flex;
+ margin: auto;
+  list-style: none;
+ cursor: pointer;
+ 
+}
+
+.article-tres-infoocul ul li {
+ width: 300px;
+ height: 200px;
+ margin-left: 20px;
+ padding-top: 100px;
+ padding-left: 40px;
+ background: red;
+ opacity: 0;
+  transition: width 1s, height 1s, transform 1s;
+ 
+}
+.article-tres-infoocul ul li:hover {
+  width: 400px;
+ height: 300px;
+  margin-left: 30px;
+ background: rgba(0,165,81,1);
+ opacity: 0.8;
+  transform: rotate(360deg); 
+}
+
+.article-tres-infoocul ul li a {
+ text-align: center;
+ font-size: 25px;
+ color:white;
+
+}
+
+.article-tres-info  ul {
+ width: 1200px;
+ display: flex;
+ margin: auto;
+  list-style: none;
+ cursor: pointer;
+}
+
+
+.article-tres-info  ul li{
+ width: 400px;
+  margin-left: 20px;
+ 
+}
+
+.article-tres-info  ul li a img{
+ width: 100%;
+}
+
+.tres-info-dos {
+ opacity: 0.2;
+}
+
+.tres-info-tres {
+ opacity: 0.2;
+}
+
+/*.article-tres-info  ul li:hover{
+ width: 400px;
+ background: rgba(0,165,81,1);
+ z-index: 1;
+
+}*/
+
+.cuatro-inf-stadi{
+ display: flex;
+  justify-content: center;
+  width: 100%;
+ 
+}
+
+.cuatro-inf-stadi .inf-section-cuatro {
+margin-top: 25px;
+}
+
+.cinco-inf-test{
+ display: flex;
+  justify-content: center;
+  width: 100%;
+ 
+}
+
+.cinco-inf-test .inf-section-cinco {
+margin-top: 25px;
+}
+
+
+span {
+ 
+ position: absolute;
+ right: 0;
+ width: 0;
+ background: white;
+ border-left: 2px solid #000;
+ animation: maquina 5s  alternate steps(23);
+}
+
+@keyframes maquina {
+ 
+ from {
+  width: 65%;
+ }
+ to {
+  width: 20%;
+  
+ }
+ 
+ 
+}
+
