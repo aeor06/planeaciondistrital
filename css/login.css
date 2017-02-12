@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre');
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ 
+}
+
+body {
+ font-family: 'Frank Ruhl Libre', sans-serif;
+}
+
+.login-h1 {
+ width: 100%;
+ text-align: center;
+  margin-bottom: 10px;
+}
+
+.login-h1 img {
+ width: 60px;
+}
+.form {
+ display: flex;
+flex-direction: column;
+
+ margin: 0 auto;
+ margin-top: 100px;
+ background: rgba(0,165,81,1);
+ width: 380px;
+ height: 380px;
+ border-radius: 10px;
+ box-shadow: 5px 5px 3px rgba(0,165,81,0.5);
+ 
+}
+
+.form .form-texto {
+ width: 80%;
+ height: 40px;
+ margin: 0 auto;
+  margin-bottom: 20px;
+ border-radius: 5px;
+ box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+ font-size: 20px;
+}
+
+
+.form .form-pass {
+ width: 80%;
+ height: 40px;
+ margin: 0 auto;
+  border-radius: 5px;
+ box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+  font-size: 20px;
+}
+
+.login-logo {
+ margin: 0 auto;
+}
+
+.login-logo img {
+ margin: 0 auto;
+ margin-top: 20px;
+ width: 200px;
+}
+
+.boton-input{
+ margin: 0 auto;
+ margin-top: 40px;
+ width: 50%;
+ height: 40px;
+ cursor: pointer;
+ border-radius: 4px;
+ 
+}
